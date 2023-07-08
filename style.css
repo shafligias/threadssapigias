@@ -1,0 +1,115 @@
+* {
+    scroll-behavior: smooth;
+}
+
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.navbar {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px 7px;
+}
+
+.navbar:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar-alt {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-alt:hover {
+    color: white;
+}
+
+#home {
+    margin-top: 50px;
+    padding: 0 60px;
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#home img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#about {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.about-h1 {
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.image-about {
+    padding: 50px 0;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-img1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-img2 {
+    display: grid;
+}
+
+.about-img {
+    width: 400px;
+    filter: grayscale(1);
+}
+
+.about-img:hover {
+    filter: grayscale(0);
+}
+
+.about-img-alt {
+    width: 800px;
+    height: 300px;
+}
+
+.about-img-alt2 {
+    height: 210px;
+}
+
+.paragraph-about {
+    color: white;
+    text-align: center;
+    padding: 50px 80px;
+    font-size: 1.2em;
+}
